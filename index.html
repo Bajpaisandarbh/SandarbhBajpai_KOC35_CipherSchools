@@ -15,7 +15,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url("image.png");
+    background-image: url("image.PMG");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -91,7 +91,7 @@ justify-content: space-between;
 
     <div class="hero">
         <div class="navbar">
-            <img src="logo.png" class="logo">
+            <img src="logo.PNG" class="logo">
             <ul>
                 <li><a href="https://www.jiosaavn.com/charts">SUPER 5</a></li>
                 <li><a href="https://www.jiosaavn.com/search/lastest%20english%20songs">LATEST ENGLISH SONGS</a></li>
@@ -106,13 +106,13 @@ justify-content: space-between;
             </div>
             <div class="right">
                 <p>Click To Play</p>
-                <img src="logo.png" id="icon">
+                <img src="logo.PMG" id="icon">
             </div>
         </div>
     </div>
 
     <audio id="mysong">
-        <source src="Walker.mp3" type="audio/mp3">
+        <source src="Walker.MP3" type="audio/mp3">
     </audio>
     <script>
 
@@ -122,10 +122,10 @@ justify-content: space-between;
         icon.onclick = function(){
             if(mysong.paused){
                 mysong.play();
-                icon.src = "play.png";
+                icon.src = "play.PNG";
             }else{
                 mysong.pause();
-                icon.src = "pause.png";
+                icon.src = "pause.PNG";
             }
         }
 
